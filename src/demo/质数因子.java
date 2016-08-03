@@ -18,8 +18,9 @@
 //		for(int i=2;i<=n;i++){
 //			while(n%i==0){
 //					list.add(i);
+//					n/=i;
 //			}
-//			n/=i;
+//			
 //		}
 //		
 //		Iterator<Integer> iterator=list.iterator();
